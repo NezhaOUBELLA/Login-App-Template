@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pass">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_signUp"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="140dp"
+                android:backgroundTint="#B149CD"
+                android:text="@string/signUp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

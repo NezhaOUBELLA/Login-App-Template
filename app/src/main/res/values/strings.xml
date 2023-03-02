@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Compte</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="user">Nom d utilisateur</string>
+    <string name="pass">Mot de passe</string>
+    <string name="signUp">S identifier</string>
+    <string name="infos">Les informations du compte d utilisateur</string>
+</resources>
